@@ -11,7 +11,7 @@
     padding: .5em;
     width: 100%;
     position: sticky;
-    top:0;
+    top:-.1em;
     background-color: #4b6080;
     &:after{
       content: ":";
@@ -39,4 +39,18 @@
       }
     }
   }
+}
+
+@media (max-width: 890px) {
+  .skills{
+    .skills__skill-list{
+      flex-direction: row;
+      flex-wrap: wrap;
+      .skill-list__skill{
+        min-width: 20%;
+      }
+    }
+  }
+
+
 }

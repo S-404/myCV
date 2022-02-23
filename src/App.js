@@ -16,8 +16,10 @@ function App() {
 
     return (
         <div className="App">
-            <LanguageSwitcher setData={setData}/>
             <div className='cv-content'>
+                <div className='language-switcher-div'>
+                    <LanguageSwitcher setData={setData}/>
+                </div>
                 <div className='cv-content__left-column'>
                     <Photo personalData={data.personalData}/>
                     <Contacts personalData={data.personalData}/>

@@ -12,7 +12,7 @@
   padding: 0.5em;
   width: 100%;
   position: sticky;
-  top: 0;
+  top: -0.1em;
   background-color: #4b6080;
 }
 .skills .skills__header:after {
@@ -31,6 +31,15 @@
 }
 .skills .skills__skill-list .skill-list__skill .skill__type {
   font-weight: bold;
+}
+@media (max-width: 890px) {
+  .skills .skills__skill-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .skills .skills__skill-list .skill-list__skill {
+    min-width: 20%;
+  }
 }
 
 /*# sourceMappingURL=skills.css.map */
