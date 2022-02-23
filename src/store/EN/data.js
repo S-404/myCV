@@ -1,14 +1,20 @@
+import {myPhoto} from "../../assets/photo/index";
+
 export const dataEN = {
     personalData: {
         name: 'Andrey Sudarev',
         title: 'Junior Frontend Developer',
-        image: '',
+        image: myPhoto,
+        summary: 'I apply my programming skills to achieve business goals by developing methods and tools for the interaction of a commercial team',
         contacts: [
-            {type: 'email', value: 'sudarev.andrey.i@gmail.com'},
-            {type: 'phone', value: '+7 (967) 123 50 80'},
-            {type: 'location', value: 'Moscow'},
-            {type: 'skype', value: '+7 (967) 123 50 80'},
-            {type: 'github', value: 'https://github.com/S-404'},
+            {type: 'email', value: 'sudarev.andrey.i@gmail.com',},
+            {type: 'phone/whatsapp/skype', value: '+7 (967) 123 50 80',},
+            {
+                type: 'location',
+                value: 'Dzerzhinsky, Moscow Oblast',
+                link: 'https://www.google.ru/maps/place/55%C2%B037\'51.8%22N+37%C2%B050\'57.9%22E/@55.6213453,37.8557238,13.41z/data=!4m6!3m5!1s0x0:0xdd0e7c60c23bbf9!7e2!8m2!3d55.6310442!4d37.8494089?hl=ru'
+            },
+            {type: 'github', value: 'github.com/S-404', link: 'https://github.com/S-404'},
         ]
     },
     skills: {
@@ -108,7 +114,7 @@ export const dataEN = {
                     description: [],
                     achievements: {
                         title: 'Achievements',
-                        points:[]
+                        points: []
                     },
                 }
             ]

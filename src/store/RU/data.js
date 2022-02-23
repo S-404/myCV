@@ -1,14 +1,21 @@
+import {myPhoto} from "../../assets/photo/index";
+
 export const dataRU = {
     personalData: {
         name: 'Андрей Сударев',
         title: 'Junior Frontend Developer',
-        image: '',
+        image: myPhoto,
+        summary: 'Применяю свои навыки программирования для достижения бизнес целей, ' +
+            'разрабатывая методы и инструменты для взаимодействия коммерческой команды.',
         contacts: [
-            {type: 'email', value: 'sudarev.andrey.i@gmail.com'},
-            {type: 'телефон', value: '+7 (967) 123 50 80'},
-            {type: 'место нахождения', value: 'Москва'},
-            {type: 'skype', value: '+7 (967) 123 50 80'},
-            {type: 'github', value: 'https://github.com/S-404'},
+            {type: 'email', value: 'sudarev.andrey.i@gmail.com',},
+            {type: 'телефон/whatsapp/skype', value: '+7 (967) 123 50 80',},
+            {
+                type: 'местонахождение',
+                value: 'МО Дзержинский',
+                link: 'https://www.google.ru/maps/place/55%C2%B037\'51.8%22N+37%C2%B050\'57.9%22E/@55.6213453,37.8557238,13.41z/data=!4m6!3m5!1s0x0:0xdd0e7c60c23bbf9!7e2!8m2!3d55.6310442!4d37.8494089?hl=ru'
+            },
+            {type: 'github', value: 'github.com/S-404', link: 'https://github.com/S-404'},
         ]
     },
     skills: {
@@ -70,9 +77,9 @@ export const dataRU = {
             title: 'Опыт',
             content: [
                 {
-                    title: 'Логистика, поддержка продаж и снабжение',
-                    period: 'Ноябрь 2011 - по настоящее время',
                     organization: 'IKEA',
+                    period: 'Ноябрь 2011 - по настоящее время',
+                    title: 'Логистика, поддержка продаж и снабжение',
                     description: [
                         'Fullstack разработка web-портала, ' +
                         'разработка web-приложений для оптимизации и автоматизации процессов коммерческой команды',
@@ -101,13 +108,13 @@ export const dataRU = {
             title: 'Образование',
             content: [
                 {
-                    title: 'Государственное и муниципальное управление, Стратегическое управление',
-                    period: 'окончен 2012',
                     organization: 'НОУ ВПО Профессиональный Институт Юриспруденции',
+                    period: 'окончен 2012',
+                    title: 'Государственное и муниципальное управление, Стратегическое управление',
                     description: [],
-                    achievements:  {
+                    achievements: {
                         title: 'Достижения',
-                        points:[]
+                        points: []
                     },
                 }
             ]
