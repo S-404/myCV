@@ -1,0 +1,14 @@
+.photo {
+  display: flex;
+  justify-content: center;
+}
+.photo .img-div__img {
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 10px auto;
+  z-index: 1;
+  width: 250px;
+  height: 250px;
+}
+
+/*# sourceMappingURL=photo.css.map */

@@ -1,0 +1,29 @@
+.person {
+  position: relative;
+  *{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  background-color: white;
+
+  .person__name{
+
+
+  }
+  .person__goals{
+    display: flex;
+    flex-direction: column;
+    .goals__desired-position{
+      width: 100%;
+      position: sticky;
+      top:0;
+      background-color: white;
+    }
+    .goals__summary{
+      padding: 1em;
+      width: 80%;
+
+    }
+  }
+}

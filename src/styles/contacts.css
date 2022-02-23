@@ -1,0 +1,23 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+.contacts .contacts__contact {
+  margin: 0.2em 2em;
+  display: flex;
+  flex-direction: column;
+  padding: 0.2em 1em;
+  background-color: white;
+  border-radius: var(--border-radius-val);
+}
+.contacts .contacts__contact .contact__type {
+  font-style: italic;
+  font-size: smaller;
+  color: #5b5b5b;
+  font-weight: bold;
+}
+.contacts .contacts__contact .contact__type:after {
+  content: ":";
+}
+
+/*# sourceMappingURL=contacts.css.map */

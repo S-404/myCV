@@ -2,10 +2,12 @@ import React, {useState} from 'react';
 import './styles/App.css';
 import {dataEN} from "./store/EN/data";
 import LanguageSwitcher from "./components/LanguageSwitcher";
-import PersonalData from "./components/PersonalData";
 import Skills from "./components/Skills";
-import AboutMe from "./components/AboutMe";
+import About from "./components/About";
 import Sections from "./components/sections/Sections";
+import Photo from "./components/Photo";
+import Person from "./components/Person";
+import Contacts from "./components/Contacts";
 
 
 function App() {
@@ -15,10 +17,24 @@ function App() {
     return (
         <div className="App">
             <LanguageSwitcher setData={setData}/>
-            <PersonalData personalData={data.personalData}/>
-            <Skills skills={data.skills}/>
-            <Sections sections={data.sections}/>
-            <AboutMe about={data.about}/>
+            <div className='cv-content'>
+                <div className='cv-content__left-column'>
+                    <Photo personalData={data.personalData}/>
+                    <Contacts personalData={data.personalData}/>
+                    <Skills skills={data.skills}/>
+                </div>
+                <div className='cv-content__right-column'>
+                    <Person personalData={data.personalData}/>
+                    <Sections sections={data.sections}/>
+                    <About about={data.about}/>
+                </div>
+            </div>
+
+
+
+
+
+
         </div>
     );
 }

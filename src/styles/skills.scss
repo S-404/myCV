@@ -1,0 +1,42 @@
+.skills{
+  margin-top: 2em;
+  background-color: #4b6080;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 2em;
+  border-radius: var(--border-radius-val) var(--border-radius-val) 0 0;
+  .skills__header{
+    color: white;
+    padding: .5em;
+    width: 100%;
+    position: sticky;
+    top:0;
+    background-color: #4b6080;
+    &:after{
+      content: ":";
+    }
+  }
+  .skills__skill-list{
+    display: flex;
+    flex-direction: column;
+    //flex-wrap: wrap;
+
+
+    .skill-list__skill{
+      background-color: #ffffff;
+      border-radius: var(--border-radius-val);
+      padding: .5em;
+      margin: .2em;
+      min-width: 40%;
+      .skill__type{
+        font-weight: bold;
+      }
+      .skill__skill-points{
+        .skill-points__skill-point{
+
+        }
+      }
+    }
+  }
+}

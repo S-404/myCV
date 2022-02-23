@@ -1,13 +1,13 @@
 import React from 'react';
-
-const AboutMe = ({about}) => {
+import "../styles/about.scss"
+const About = ({about}) => {
     return (
-        <div className='about-me'>
-            <h2 className='about-me__title'> {about.title}</h2>
-            <div className='about-me__content'>
+        <div className='about-block'>
+            <h2 className='about-block__title'> {about.title}</h2>
+            <div className='about-block__content'>
                 {about.content.map(content => (
                     <div
-                        key={`about-me_content_${content.type}`}
+                        key={`about_content_${content.type}`}
                         className='content__content-point'
                     >
                         <div className='content-point__type'>{content.type}:</div>
@@ -19,4 +19,4 @@ const AboutMe = ({about}) => {
     );
 };
 
-export default AboutMe;
+export default About;

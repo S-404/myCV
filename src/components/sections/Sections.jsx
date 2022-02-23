@@ -1,5 +1,6 @@
 import React from 'react';
 import Section from "./Section";
+import "../../styles/sections.scss"
 
 const Sections = ({sections}) => {
     return (

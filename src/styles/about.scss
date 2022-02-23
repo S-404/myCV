@@ -1,0 +1,38 @@
+.about-block {
+  display: flex;
+  flex-direction: column;
+
+  .about-block__title {
+    color: #000000;
+    padding: 0.2em 1em;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+    &:after {
+      content: ":";
+    }
+
+  }
+
+  .about-block__content {
+    padding: .5em 2em;
+    width: 100%;
+    border-radius: 0 var(--border-radius-val) var(--border-radius-val);
+
+
+    .content__content-point {
+      padding: .5em 0;
+
+      .content-point__type {
+        font-style: italic;
+        font-weight: bold;
+      }
+
+      .content-point__value {
+
+      }
+    }
+  }
+}
