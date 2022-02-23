@@ -16,7 +16,7 @@
 }
 
 :root {
-    --border-radius-val: .5vw;
+    --border-radius-val: .5em;
 }
 
 #root {
@@ -39,22 +39,45 @@
 
 }
 
-.cv-content__left-column,.cv-content__right-column {
+.cv-content__left-column, .cv-content__right-column {
     display: flex;
     flex-direction: column;
-
-
 }
-.cv-content__left-column{
+
+.cv-content__left-column {
 
     background-color: rgb(7, 59, 87);
     max-width: 380px;
     color: #000000;
 
 }
-.cv-content__right-column{
+
+.cv-content__right-column {
     width: 100%;
 
+}
+
+
+@media (max-width: 1200px) {
+    .cv-content {
+        width: 90vw;
+    }
+
+    *::-webkit-scrollbar {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 890px) {
+    .cv-content {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .cv-content__left-column, .cv-content__right-column {
+        width: 100%;
+        max-width: unset;
+    }
 }
 
 

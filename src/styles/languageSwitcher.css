@@ -1,7 +1,12 @@
+.language-switcher-div {
+  position: relative;
+}
+
 .language-switcher {
   display: flex;
   flex-direction: row;
-  position: absolute;
+  position: fixed;
+  z-index: 1;
   top: 1em;
   right: 2em;
   padding: 0.5em;
@@ -36,6 +41,21 @@
   background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E%3Ccircle style='fill:%23F0F0F0;' cx='256' cy='256' r='256'/%3E%3Cpath style='fill:%230052B4;' d='M496.077,345.043C506.368,317.31,512,287.314,512,256s-5.632-61.31-15.923-89.043H15.923 C5.633,194.69,0,224.686,0,256s5.633,61.31,15.923,89.043L256,367.304L496.077,345.043z'/%3E%3Cpath style='fill:%23D80027;' d='M256,512c110.071,0,203.906-69.472,240.077-166.957H15.923C52.094,442.528,145.929,512,256,512z'/%3E%3C/svg%3E%0A");
   width: 40px;
   height: 40px;
+}
+
+@media (max-width: 1200px) {
+  .language-switcher {
+    flex-direction: column;
+    right: 0;
+    top: 0;
+  }
+}
+@media (max-width: 890px) {
+  .language-switcher {
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+  }
 }
 
 /*# sourceMappingURL=languageSwitcher.css.map */

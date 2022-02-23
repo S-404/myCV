@@ -1,8 +1,12 @@
+.language-switcher-div {
+  position: relative;
+
+}
 .language-switcher {
   display: flex;
   flex-direction: row;
-
-  position: absolute;
+  position: fixed;
+  z-index: 1;
   top: 1em;
   right: 2em;
   padding: .5em;
@@ -52,3 +56,23 @@
   }
 }
 
+
+
+
+@media (max-width: 1200px) {
+  .language-switcher{
+    //width: 100vw;
+    flex-direction: column;
+    right: 0;
+    top:0;
+
+  }
+}
+
+@media (max-width: 890px) {
+  .language-switcher{
+    flex-direction: row;
+    position: sticky;
+    top:0;
+  }
+}
