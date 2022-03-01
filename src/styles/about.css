@@ -7,6 +7,7 @@
 .about-block .about-block__title {
   background-color: inherit;
   padding: 0.2em 0.5em;
+  margin-bottom: 0.2em;
   width: 100%;
   position: sticky;
   top: -0.1em;

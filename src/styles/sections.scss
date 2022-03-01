@@ -16,7 +16,7 @@
 
       .section-contents__content {
         @include cv-content__item;
-
+        border: 1px solid #cbcbcb;
         .content__title {
           padding: .5em  0 ;
         }
