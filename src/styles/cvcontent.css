@@ -6,12 +6,12 @@
 .cv-content .cv-content__header {
   display: flex;
   flex-direction: row;
-  background-color: #1d5485;
+  background-color: #048BC2;
 }
 .cv-content .cv-content__header .header__left-block {
   display: flex;
   justify-content: center;
-  padding: 0 2em;
+  padding: 0 1.5em;
 }
 .cv-content .cv-content__header .header__right-block {
   display: flex;
@@ -27,7 +27,7 @@
   display: flex;
   flex-direction: column;
   color: white;
-  background-color: #3a4d69;
+  background-color: #212834;
 }
 .cv-content .cv-content__cv-columns .cv-columns__right-column {
   width: 100%;
@@ -35,7 +35,7 @@
   flex-direction: column;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
   .cv-content {
     width: 90vw;
   }

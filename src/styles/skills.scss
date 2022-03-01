@@ -1,39 +1,26 @@
-.skills{
-  margin-top: 2em;
-  background-color: #4b6080;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  padding: 0 2em;
-  border-radius: var(--border-radius-val) var(--border-radius-val) 0 0;
-  .skills__header{
-    color: white;
-    padding: .5em;
-    width: 100%;
-    position: sticky;
-    top:-.1em;
-    background-color: #4b6080;
-    &:after{
-      content: ":";
-    }
+@import "../styles/mixins/mixins";
+
+.skills {
+  @include cv-content__block;
+
+  .skills__header {
+    @include cv-content__header;
   }
-  .skills__skill-list{
+
+  .skills__skill-list {
     display: flex;
     flex-direction: column;
-    //flex-wrap: wrap;
 
-
-    .skill-list__skill{
-      background-color: #ffffff;
-      border-radius: var(--border-radius-val);
-      padding: .5em;
-      margin: .2em;
+    .skill-list__skill {
+      @include cv-content__item;
       min-width: 40%;
-      .skill__type{
+
+      .skill__type {
         font-weight: bold;
       }
-      .skill__skill-points{
-        .skill-points__skill-point{
+
+      .skill__skill-points {
+        .skill-points__skill-point {
 
         }
       }
@@ -42,11 +29,12 @@
 }
 
 @media (max-width: 890px) {
-  .skills{
-    .skills__skill-list{
+  .skills {
+    .skills__skill-list {
       flex-direction: row;
       flex-wrap: wrap;
-      .skill-list__skill{
+
+      .skill-list__skill {
         min-width: 20%;
       }
     }
