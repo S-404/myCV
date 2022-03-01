@@ -1,45 +1,24 @@
-:root {
-  --sections-color: #ffffff;
-}
+@import "../styles/mixins/mixins";
 
 .sections {
-  display: flex;
-  flex-direction: column;
-
-
+  @include cv-content__block;
   .sections__section {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    margin-top: 1em;
-
+    color: black;
+    background-color: white;
     .section__title {
-      color: #000000;
-      padding: 0.2em 1em;
-      width: 100%;
-      position: sticky;
-      top:0;
-      background-color: white;
-
-      &:after{
-        content: ":";
-      }
-
+      @include cv-content__header;
     }
 
     .section__section-contents {
 
-      padding: .1em 2em;
-      width: 100%;
-      border-radius: 0 var(--border-radius-val) var(--border-radius-val);
-
       .section-contents__content {
-        padding: 1em;
-        border-radius: var(--border-radius-val);
-        background-color: white;
-
+        @include cv-content__item;
+        border: 1px solid #cbcbcb;
         .content__title {
-          padding: .5em  0 1em 0;
+          padding: .5em  0 ;
         }
 
         .content__period {
@@ -48,24 +27,28 @@
         }
 
         .content__organization {
-
+          color: #3b3b3b;
         }
 
         .content__description-points {
+          @include cv-content__item;
           .description-points__point {
             margin-top: .5em;
           }
         }
 
         .content__achievements-div {
-          margin-top: 1em;
+          @include cv-content__block;
           .achievements-div__achievements {
+
             .achievements__title {
 
             }
 
             .achievements__achievements-points {
+              @include cv-content__item;
               .achievements-points__point {
+
                 margin-top: .5em;
               }
             }

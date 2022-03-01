@@ -2,11 +2,12 @@
   display: flex;
   justify-content: center;
 
+
   .img-div__img {
     object-fit: cover;
     border-radius: 50%;
     margin: 10px auto;
-
+    box-shadow: -.2em .2em .8em #212834;
     z-index: 1;
 
     width: 250px;

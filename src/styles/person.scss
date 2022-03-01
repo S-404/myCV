@@ -1,26 +1,23 @@
+@import "../styles/mixins/mixins";
+
 .person {
-  position: relative;
-  *{
-    display: flex;
-    flex-direction: column;
+  @include cv-content__block;
+  align-items: center;
+  color: white;
+
+  .person__name {
+  }
+
+  .person__goals {
+    @include cv-content__block;
     align-items: center;
-  }
-  background-color: white;
 
-  .person__name{
-
-
-  }
-  .person__goals{
-    display: flex;
-    flex-direction: column;
-    .goals__desired-position{
-      width: 100%;
-      position: sticky;
-      top:0;
-      background-color: white;
+    .goals__desired-position {
+      margin: .5em;
     }
-    .goals__summary{
+
+    .goals__summary {
+      @include cv-content__item;
       padding: 1em;
       width: 80%;
 

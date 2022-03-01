@@ -6,6 +6,7 @@
   object-fit: cover;
   border-radius: 50%;
   margin: 10px auto;
+  box-shadow: -0.2em 0.2em 0.8em #212834;
   z-index: 1;
   width: 250px;
   height: 250px;
