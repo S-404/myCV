@@ -4,7 +4,8 @@ import "../styles/contacts.scss"
 const Contacts = ({personalData}) => {
     return (
         <div className='contacts'>
-            {personalData.contacts.map(contact => (
+            <h2 className='contacts__header'>{personalData.contacts.title}</h2>
+            {personalData.contacts.content.map(contact => (
                 <a
                     className='contacts__contact'
                     key={`contact_${contact.type}_${contact.value}`}

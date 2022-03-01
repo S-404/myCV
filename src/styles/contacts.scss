@@ -1,14 +1,11 @@
+@import "../styles/mixins/mixins";
 .contacts{
-  display: flex;
-  flex-direction: column;
+ @include cv-content__block;
+  .contacts__header{
+    @include cv-content__header;
+  }
   .contacts__contact{
-    margin: .2em 2em;
-    display: flex;
-    flex-direction: column;
-    padding: .2em 1em;
-    background-color: white;
-    border-radius: var(--border-radius-val);
-
+    @include cv-content__item;
     .contact__type{
       font-style: italic;
       font-size: smaller;
