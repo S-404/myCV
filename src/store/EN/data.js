@@ -78,6 +78,22 @@ export const dataEN = {
             title: 'Experience',
             content: [
                 {
+                    title: 'Web Developer',
+                    period: 'November 2020 - currently',
+                    organization: 'IKEA',
+                    description: [
+                        'Fullstack developing of web portal, ' +
+                        'Development of web applications to optimize and automate the processes of a commercial team',
+                        'Database design',
+                        'Configure and maintain of web and SQL servers and environments',
+                    ],
+                    achievements: {
+                        title: 'Achievements',
+                        points: [
+                        ]
+                    }
+                },
+                {
                     title: 'Logistics, supply support',
                     period: 'November 2011 - currently',
                     organization: 'IKEA',
@@ -103,7 +119,7 @@ export const dataEN = {
                             'that reduced the time spent on routines',
                         ]
                     }
-                }
+                },
             ]
         },
         {
