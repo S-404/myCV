@@ -34,6 +34,22 @@
         visibility: hidden;
     }
 }
+
+@media (min-width: 1850px) {
+    *{
+        font-size: 2vmin;
+    }
+    h1{
+        font-size: 3vmin;
+    }
+    h2{
+        font-size: 2.6vmin;
+    }
+    h3{
+        font-size: 2.3vmin;
+    }
+}
+
 @-moz-document url-prefix() {
     * {
         scrollbar-width: thin;
