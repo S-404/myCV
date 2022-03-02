@@ -3,7 +3,7 @@ import {myPhoto} from "../../assets/photo/index";
 export const dataRU = {
     personalData: {
         name: 'Андрей Сударев',
-        title: 'Junior Frontend Developer',
+        title: 'Frontend Developer',
         image: myPhoto,
         summary: 'Применяю свои навыки программирования для достижения бизнес целей, ' +
             'разрабатывая методы и инструменты для взаимодействия коммерческой команды.',
@@ -59,7 +59,7 @@ export const dataRU = {
             },
             {
                 type: 'frontend',
-                value: 'JQuery (c 2020), React (с ноября 2021)'
+                value: 'JQuery, React'
             },
             {
                 type: 'backend',

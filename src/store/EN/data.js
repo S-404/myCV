@@ -3,7 +3,7 @@ import {myPhoto} from "../../assets/photo/index";
 export const dataEN = {
     personalData: {
         name: 'Andrey Sudarev',
-        title: 'Junior Frontend Developer',
+        title: 'Frontend Developer',
         image: myPhoto,
         summary: 'I apply my programming skills to achieve business goals by developing methods and tools for the interaction of a commercial team',
         contacts: {
@@ -58,7 +58,7 @@ export const dataEN = {
             },
             {
                 type: 'frontend',
-                value: 'JQuery (since 2020), React (since Nov 2021)'
+                value: 'JQuery, React'
             },
             {
                 type: 'backend',
@@ -98,7 +98,7 @@ export const dataEN = {
                     organization: 'IKEA',
                     description: [
                         'Using internal systems to analyze and maintain store stock availability',
-                        'Make reports for the analysis of key indicators with a view to their subsequent improvement',
+                        'Making reports for the analysis of key indicators with a view to their subsequent improvement',
                         'Organizing and conducting an inventory of goods, investigating discovered discrepancies',
                         'Maintaining internal document flow',
                         'Handling internal transactions',
