@@ -78,7 +78,7 @@ export const dataEN = {
             title: 'Experience',
             content: [
                 {
-                    title: 'Web Developer',
+                    title: 'Web Developer (civil contract)',
                     period: 'November 2020 - currently',
                     organization: 'IKEA',
                     description: [
@@ -89,19 +89,14 @@ export const dataEN = {
                     ],
                     achievements: {
                         title: 'Achievements',
-                        points: [
-                        ]
+                        points: []
                     }
                 },
                 {
-                    title: 'Logistics, supply support',
+                    title: 'Logistics, supply support specialist',
                     period: 'November 2011 - currently',
                     organization: 'IKEA',
                     description: [
-                        'Fullstack developing of web portal, ' +
-                        'Development of web applications to optimize and automate the processes of a commercial team',
-                        'Database design',
-                        'Configure and maintain of web and SQL servers and environments',
                         'Using internal systems to analyze and maintain store stock availability',
                         'Make reports for the analysis of key indicators with a view to their subsequent improvement',
                         'Organizing and conducting an inventory of goods, investigating discovered discrepancies',
