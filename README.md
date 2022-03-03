@@ -35,7 +35,7 @@ structure:
         personalData:{ 
                 name: String,  
                 title: String, 
-                image: []Any, // image from /src/assets/photo/index.js
+                image: Object, // image from /src/assets/photo/index.js
                 summary: String,
                 contacts:{
                         title: String,
