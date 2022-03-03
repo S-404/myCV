@@ -70,7 +70,7 @@ example:
 
 preview:
 
-<img src="img.png" alt="example1" style="width: 300px">
+<img src="src/assets/img.png" alt="example1" style="width: 300px">
 
 <hr/>
 
@@ -109,7 +109,7 @@ example:
 
 preview:
 
-<img src="img_1.png" alt="example2" style="width: 300px">
+<img src="src/assets/img_1.png" alt="example2" style="width: 300px">
 
 <hr/>
 
@@ -162,7 +162,7 @@ example:
 
 preview:
 
-<img src="img_3.png" alt="example3" style="width: 300px">
+<img src="src/assets/img_3.png" alt="example3" style="width: 300px">
 
 <hr/>
 
@@ -190,7 +190,7 @@ example:
 
 preview:
 
-<img src="img_2.png" alt="example2" style="width: 300px">
+<img src="src/assets/img_2.png" alt="example2" style="width: 300px">
 
 
 <hr/>
