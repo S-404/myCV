@@ -123,7 +123,7 @@ export const dataEN = {
                 {
                     title: 'State and municipal administration, Strategic management',
                     period: 'Year of graduation: 2012',
-                    organization: 'НОУ ВПО Профессиональный Институт Юриспруденции',
+                    organization: 'Non-State Institution "Professional Institute of Jurisprudence"',
                     description: [],
                     achievements: {
                         title: 'Achievements',

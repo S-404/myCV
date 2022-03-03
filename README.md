@@ -1,8 +1,5 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+# Available Scripts
 
 In the project directory, you can run:
 
@@ -14,57 +11,187 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
+### `npm run deploy`
 
 Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+and publishes to homepage (https://[user].github.io/[repo]/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+set homepage in package.json
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# Data structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## update data   
+_/src/store/EN/data.js_ \
+and\
+_/src/store/RU/data.js_
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<hr/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### personal data
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+structure:
 
-## Learn More
+        personalData:{ 
+                name: String,  
+                title: String, 
+                image: []Any, // image from /src/assets/photo/index.js
+                summary: String,
+                contacts:{
+                        title: String,
+                        content: [
+                            {
+                                type: String, 
+                                value: String, 
+                                link: String
+                            },
+                        ]
+                } 
+            },
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+example:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+        personalData:{
+            name: 'Andrey',  
+            title: 'Frontend Developer',
+            image: myPhoto,
+            summary: 'I apply my programming skills to achieve business goals...',
+            contacts:{
+                title: 'Contacts',
+                content: [
+                    {
+                        type: 'github',
+                        value: 'github.com/S-404', 
+                        link: 'https://github.com/S-404'
+                    },
+                    ]
+                }
+        },
 
-### Code Splitting
+preview:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<img src="src/assets/img.png" alt="example1" style="width: 300px">
 
-### Analyzing the Bundle Size
+<hr/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Skills
 
-### Making a Progressive Web App
+structure:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+        skills: {
+            title: String,
+            content: [
+                {
+                    type: String, 
+                    points: [String,]
+                },
+            ]
+        },
 
-### Advanced Configuration
+example:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    skills: {
+        title: 'Skills',
+        content: [
+            {
+                type: 'JavaScript(ES6+)',
+                points: [
+                    'React', 
+                    'Redux', 
+                    'TypeScript', 
+                    'Node', 
+                    'JQuery'
+                ]
+            }
+        ]
 
-### Deployment
+    },
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+preview:
 
-### `npm run build` fails to minify
+<img src="src/assets/img_1.png" alt="example2" style="width: 300px">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<hr/>
+
+
+### Sections
+
+structure:
+
+        sections:[
+            {
+                    title: String,
+                    content:[
+                            {
+                                title: String,
+                                period: String,
+                                organization: String,
+                                description: [String,],
+                                achievements: {
+                                    title: String,
+                                    points: [String,]
+                                }
+                            },
+                    ]
+            },
+        ],
+    }
+
+example:
+
+    sections: [
+        {
+            title: 'Experience',
+            content: [
+                {
+                    title: 'Web Developer (civil contract)',
+                    period: 'November 2020 - currently',
+                    organization: 'IKEA',
+                    description: [
+                        'Fullstack developing of web portal',
+                    ],
+
+                    achievements: {
+                        title: 'Achievements',
+                        points: []
+                    }
+                },
+            ]
+        }
+    ]
+
+preview:
+
+<img src="src/assets/img_3.png" alt="example3" style="width: 300px">
+
+<hr/>
+
+
+### About
+
+structure:
+    
+        about: {
+            title: string,
+            content: [{type: string, value: string},]
+        },
+
+example:
+
+        about: {
+            title: 'About me',
+            content: [
+                {
+                type: 'web development',
+                value: 'Joined web application development in 2020'
+                },
+            ]
+        },
+
+preview:
+
+<img src="src/assets/img_2.png" alt="example2" style="width: 300px">
+
+
+<hr/>
+
