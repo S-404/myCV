@@ -29,6 +29,7 @@ const CvContent = () => {
                 <div className='cv-columns__left-column'>
                     <Contacts personalData={data.personalData}/>
                     <Skills skills={data.skills}/>
+                    <Skills skills={data.softSkills}/>
                 </div>
                 <div className='cv-columns__right-column'>
                     <Sections sections={data.sections}/>
