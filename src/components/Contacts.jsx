@@ -3,7 +3,7 @@ import "../styles/contacts.scss"
 
 const Contacts = ({personalData}) => {
     return (
-        <div className='contacts'>
+        <section className='contacts'>
             <h2 className='contacts__header'>{personalData.contacts.title}</h2>
             {personalData.contacts.content.map(contact => (
                 <a
@@ -16,7 +16,7 @@ const Contacts = ({personalData}) => {
                     <span className='contact__value'>{contact.value}</span>
                 </a>
             ))}
-        </div>
+        </section>
     );
 };
 

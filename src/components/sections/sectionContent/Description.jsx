@@ -2,7 +2,7 @@ import React from 'react';
 
 const Description = ({content}) => {
     return (
-        <div className='content__description-points'>
+        <ul className='content__description-points'>
             {content.description.map(descr => (
                 <li
                     key={`descr_${descr}`}
@@ -11,7 +11,7 @@ const Description = ({content}) => {
                     {descr}
                 </li>
             ))}
-        </div>
+        </ul>
     );
 };
 

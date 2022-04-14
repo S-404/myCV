@@ -4,13 +4,13 @@ import Description from "./Description";
 
 const SectionContent = ({content}) => {
     return (
-        <div className='section-contents__content'>
+        <article className='section-contents__content'>
             <h3 className='content__organization'>{content.organization}</h3>
             <span className='content__period'>{content.period}</span>
             <h3 className='content__title'>{content.title}</h3>
             <Description content={content}/>
             <Achievements content={content}/>
-        </div>
+        </article>
     );
 };
 

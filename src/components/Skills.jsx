@@ -3,13 +3,13 @@ import "../styles/skills.scss"
 
 const Skills = ({skills}) => {
     return (
-        <div className='skills'>
+        <section className='skills'>
             <h2 className='skills__header'>{skills.title}</h2>
             <div className='skills__skill-list'>
                 {skills.content.map(skill => (
-                    <div key={`skill_${skill.type}`} className='skill-list__skill'>
-                        <div className='skill__type'>{skill.type}</div>
-                        <div className='skill__skill-points'>
+                    <article key={`skill_${skill.type}`} className='skill-list__skill'>
+                        <h4 className='skill__type'>{skill.type}</h4>
+                        <ul className='skill__skill-points'>
                             {skill.points.map(point => (
                                 <li
                                     key={`point_${point}`}
@@ -18,11 +18,11 @@ const Skills = ({skills}) => {
                                     {point}
                                 </li>
                             ))}
-                        </div>
-                    </div>
+                        </ul>
+                    </article>
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 

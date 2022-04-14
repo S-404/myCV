@@ -4,11 +4,11 @@ import "../../styles/sections.scss"
 
 const Sections = ({sections}) => {
     return (
-        <div className='sections'>
+        <section className='sections'>
             {sections.map(section => (
                 <Section key={`section_${section.title}`} section={section}/>
             ))}
-        </div>
+        </section>
     );
 };
 
