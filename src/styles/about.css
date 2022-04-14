@@ -27,6 +27,12 @@
 .about-block .about-block__content .content__content-point .content-point__type {
   font-style: italic;
   font-weight: bold;
+  color: #5b5b5b;
+}
+.about-block .about-block__content .content__content-point .content-point__value {
+  white-space: pre-line;
+  line-height: 1.3em;
+  padding: 1em;
 }
 
 /*# sourceMappingURL=about.css.map */

@@ -15,10 +15,13 @@
       .content-point__type {
         font-style: italic;
         font-weight: bold;
+        color: #5b5b5b;
       }
 
       .content-point__value {
-
+        white-space: pre-line;
+        line-height: 1.3em;
+        padding: 1em;
       }
     }
   }

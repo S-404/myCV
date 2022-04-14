@@ -29,6 +29,9 @@
     overflow-y: scroll;
 }
 
+li {
+    margin-left: 1em;
+}
 @media (max-width: 1200px) {
     *::-webkit-scrollbar {
         visibility: hidden;
@@ -54,9 +57,5 @@
     * {
         scrollbar-width: thin;
         /*mozilla scrollbar*/
-    }
-
-    li {
-        margin-left: 1em;
     }
 }
