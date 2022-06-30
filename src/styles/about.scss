@@ -2,7 +2,7 @@
 
 .about-block {
   @include cv-content__block;
-
+  background-color: white;
   .about-block__title {
     @include cv-content__header;
   }
