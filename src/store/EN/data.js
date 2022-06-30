@@ -3,9 +3,9 @@ import {myPhoto} from "../../assets/photo/index"
 export const dataEN = {
     personalData: {
         name: "Andrey Sudarev",
-        title: "Frontend Developer (React)",
+        title: "Full stack Developer",
         image: myPhoto,
-        summary: "I apply my programming skills to achieve business goals by developing methods and tools for the interaction of a commercial team",
+        summary: "I've joined web development in 2020. And I've already applied my skills by creating applications for process optimization in retail logistics and sales department (IKEA). At the moment I'm focused on developing myself as a full stack developer.",
         contacts: {
             title: "Contacts",
             content: [
@@ -33,7 +33,7 @@ export const dataEN = {
             },
             {
                 type: "CSS",
-                points: ["SASS"]
+                points: ["SASS", "Bootstrap"]
             },
             {
                 type: "SQL",
@@ -41,7 +41,7 @@ export const dataEN = {
             },
             {
                 type: "Tools",
-                points: ["Git/GitHub", "npm"]
+                points: ["Git/GitHub", "npm", "webpack"]
             },
             {
                 type: "Others",
@@ -78,7 +78,7 @@ export const dataEN = {
             },
             {
                 type: "frontend",
-                value: "I\'ve the skills to use ReactJS, Redux, TypeScript, JQuery;\n" +
+                value: "I've the skills to use ReactJS, Redux, TypeScript, JQuery;" +
                     "HTML(BEM), CSS(SASS), Bootstrap;\n"
             },
             {
@@ -88,7 +88,7 @@ export const dataEN = {
             },
             {
                 type: "other",
-                value: "I\'ve the skill to use Git,\n" +
+                value: "I've the skill to use Git,\n" +
                     "Experienced Windows/Linux user \n" +
                     "I started programming with vb.NET (win forms)\n" +
                     "and with small С# UNITY projects"
@@ -100,8 +100,23 @@ export const dataEN = {
             title: "Experience",
             content: [
                 {
+                    organization: "InState",
+                    period: "May 2022 - currently",
+                    webSite: "https://instate-pm.com/",
+                    title: "Developer",
+                    description: [
+                        "Estimating the timing of the implementation of individual functional requirements or blocks of requirements",
+                        "Participation in the discussion of technical solutions for the implementation of the software functionality",
+                        "Software code development / Debugging",
+                    ],
+                    achievements: {
+                        title: "Achievements",
+                        points: []
+                    }
+                },
+                {
                     title: "Web Developer (civil contract)",
-                    period: "November 2020 - currently",
+                    period: "November 2020 - May 2022",
                     organization: "IKEA",
                     description: [
                         "Fullstack developing of web portal, " +
@@ -116,7 +131,7 @@ export const dataEN = {
                 },
                 {
                     title: "Logistics, supply support specialist",
-                    period: "November 2011 - currently",
+                    period: "November 2011 - May 2022",
                     organization: "IKEA",
                     description: [
                         "Using internal systems to analyze and maintain store stock availability",
@@ -128,7 +143,7 @@ export const dataEN = {
                     achievements: {
                         title: "Achievements",
                         points: [
-                            "I apply my programming skills to achieve business goals " +
+                            "Applying programming skills to achieve business goals " +
                             "by developing methods and tools for the interaction of a commercial team",
                             "Reached the role Senior Specialist",
                             "Optimization of department processes - " +
