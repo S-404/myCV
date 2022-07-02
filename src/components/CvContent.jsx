@@ -16,22 +16,20 @@ const CvContent = () => {
             <div className='language-switcher-div'>
                 <LanguageSwitcher setData={setData}/>
             </div>
-            <header className='cv-content__header'>
-                <div className='header__left-block'>
-                    <Photo personalData={data.personalData}/>
-                </div>
-                <div className='header__right-block'>
-                    <Person personalData={data.personalData}/>
-                </div>
-            </header>
 
             <main className='cv-content__cv-columns'>
                 <div className='cv-columns__left-column'>
+                    <div className='left-column__header'>
+                        <Photo personalData={data.personalData}/>
+                    </div>
                     <Contacts personalData={data.personalData}/>
                     <Skills skills={data.skills}/>
                     <Skills skills={data.softSkills}/>
                 </div>
                 <div className='cv-columns__right-column'>
+                    <div className='right-column__header'>
+                        <Person personalData={data.personalData}/>
+                    </div>
                     <Sections sections={data.sections}/>
                     <About about={data.about}/>
                 </div>
