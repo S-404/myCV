@@ -39,6 +39,18 @@
           }
         }
 
+        .content__stack-div{
+          @include cv-content__block;
+          .stack-div__stack{
+            .stack__title{
+
+            }
+            .stack__points{
+              @include cv-content__item;
+            }
+          }
+        }
+
         .content__achievements-div {
           @include cv-content__block;
           .achievements-div__achievements {
@@ -51,7 +63,6 @@
               @include cv-content__item;
               .achievements-points__point {
 
-                margin-top: .5em;
               }
             }
           }

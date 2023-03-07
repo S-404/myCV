@@ -1,6 +1,7 @@
 import React from 'react';
 import Achievements from "./Achievements";
 import Description from "./Description";
+import Stack from "./Stack";
 
 const SectionContent = ({content}) => {
     return (
@@ -19,6 +20,7 @@ const SectionContent = ({content}) => {
             <span className='content__period'>{content.period}</span>
             <h3 className='content__title'>{content.title}</h3>
             <Description content={content}/>
+            <Stack content={content}/>
             <Achievements content={content}/>
         </article>
     );
