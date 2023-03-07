@@ -25,7 +25,7 @@ export const dataEN = {
         content: [
             {
                 type: "JavaScript(ES6+)",
-                points: ["React", "Redux", "TypeScript", "Node", "JQuery"]
+                points: ["React", "Redux / MobX", "TypeScript", "Node", "JQuery"]
             },
             {
                 type: "HTML",
@@ -37,15 +37,11 @@ export const dataEN = {
             },
             {
                 type: "SQL",
-                points: ["MSSQL", "MySQL"]
+                points: ["PostgreSQL", "MSSQL", "MySQL"]
             },
             {
                 type: "Tools",
-                points: ["Git/GitHub", "npm", "webpack"]
-            },
-            {
-                type: "Others",
-                points: ["PowerShell", "PHP", "vb.NET"]
+                points: ["Git/GitHub", "Npm", "Webpack", "Postman"]
             },
         ]
 
@@ -79,19 +75,45 @@ export const dataEN = {
             {
                 type: "frontend",
                 value: "I've the skills to use ReactJS, Redux, TypeScript, JQuery;" +
-                    "HTML(BEM), CSS(SASS), Bootstrap;\n"
+                    "HTML(BEM), CSS(SASS), Bootstrap;\n"+
+                    "\n"+
+                    "app prototype with personal account:\n"+
+                    "<i>typescript / react / axios / redux thunk / bootstrap</i> \n"+
+                    "<i>node.js / express / json-server</i> \n"+
+                    "repo: <a target='_blank' href='https://github.com/S-404/lk-fullstack'>https://github.com/S-404/lk-fullstack</a> \n"+
+                    "\n"+
+                    "app prototype of an online ordering in a restaurant\n"+
+                    "<i>react / redux toolkit / sass</i>\n"+
+                    "repo: <a target='_blank' href='https://github.com/S-404/react-food'>https://github.com/S-404/react-food</a>  \n"+
+                    "preview: <a target='_blank' href='https://s-404.github.io/react-food'>https://s-404.github.io/react-food</a>  \n"+
+                    "\n"+
+                    "classic memory game: \n"+
+                    "<i>react / mobx / sass</i>\n"+
+                    "repo: <a target='_blank' href='https://github.com/S-404/memory-game'>https://github.com/S-404/memory-game</a> \n"+
+                    "preview: <a target='_blank' href='https://s-404.github.io/memory-game'>https://s-404.github.io/memory-game</a> \n"+
+                    "\n"
             },
             {
                 type: "backend",
                 value: "For backend I'm using Node.js(express REST), PHP (openserver), server machine automation with PowerShell scripts , " +
-                    "SQL server administration (MSSQL)"
+                    "SQL server administration (MSSQL)"+
+                    "\n"+
+                    "prototype login server with jwt:\n"+
+                    "repo: <a target='_blank' href='https://github.com/S-404/auth-server-express-mssql'>https://github.com/S-404/auth-server-express-mssql</a>  \n"+
+                    "\n"+
+                    "prototype server with auth, to do list, jwt:\n"+
+                    "repo: <a target='_blank' href='https://github.com/S-404/blahaj-server'>https://github.com/S-404/blahaj-server</a>  \n"+
+                    "\n"
             },
             {
-                type: "other",
-                value: "I've the skill to use Git,\n" +
-                    "Experienced Windows/Linux user \n" +
-                    "I started programming with vb.NET (win forms)\n" +
-                    "and with small С# UNITY projects"
+                type: "прочие навыки",
+                value:
+                    'Experienced Linux/Windows user \n'+
+                    'vb.NET - I started programming with win forms\n' +
+                    'C# - practiced skills on small UNITY projects" \n' +
+                    "PowerShell - server machine automation\n" +
+                    'Java - studying, interesting backend direction\n' +
+                    'Python - have some experience in writing parsers, clickers, telegram bots\n'
             },
         ]
     },
@@ -109,9 +131,16 @@ export const dataEN = {
                         "Participation in the discussion of technical solutions for the implementation of the software functionality",
                         "Software code development / Debugging",
                     ],
+                    stack: {
+                        title: 'Stack',
+                        points: ["JS", "JQuery", "CSS","Bootstrap", "PostgreSQL", "Nodejs", "Linux", "Git/GitLab"],
+                    },
                     achievements: {
                         title: "Achievements",
-                        points: []
+                        points: [
+                            "Beginner's mentor",
+                            "Team leader on small projects"
+                        ]
                     }
                 },
                 {
@@ -124,9 +153,15 @@ export const dataEN = {
                         "Database design",
                         "Configure and maintain of web and SQL servers and environments",
                     ],
+                    stack: {
+                        title: 'Stack',
+                        points: ["React", "Redux", "JS", "JQuery", "PHP", "CSS", "Nodejs", "MSSQL", "PowerShell", "Windows"]
+                    },
                     achievements: {
                         title: "Achievements",
-                        points: []
+                        points: [
+                            "My applications have been recognized as a good example for use in the country"
+                        ]
                     }
                 },
                 {
@@ -140,6 +175,10 @@ export const dataEN = {
                         "Maintaining internal document flow",
                         "Handling internal transactions",
                     ],
+                    stack: {
+                        title: "Stack",
+                        points: ["vb.Net", "MSSQL", "MSAccess", "PowerShell", "Windows"]
+                    },
                     achievements: {
                         title: "Achievements",
                         points: [

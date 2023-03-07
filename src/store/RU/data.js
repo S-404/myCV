@@ -25,7 +25,7 @@ export const dataRU = {
         content: [
             {
                 type: "JavaScript(ES6+)",
-                points: ["React", "Redux", "TypeScript", "Node", "JQuery"]
+                points: ["React", "Redux / MobX", "TypeScript", "Node", "JQuery"]
             },
             {
                 type: "HTML",
@@ -33,19 +33,15 @@ export const dataRU = {
             },
             {
                 type: "CSS",
-                points: ["SASS","Bootstrap"]
+                points: ["SASS", "Bootstrap"]
             },
             {
                 type: "SQL",
-                points: ["MSSQL", "MySQL"]
+                points: ["PostgreSQL", "MSSQL", "MySQL"]
             },
             {
                 type: "Инструменты",
-                points: ["Git/GitHub", "npm", "webpack"]
-            },
-            {
-                type: "Прочее",
-                points: ["PowerShell", "PHP", "vb.NET"]
+                points: ["Git/GitHub", "Npm", "Webpack", "Postman"]
             },
         ]
 
@@ -78,20 +74,45 @@ export const dataRU = {
             {
                 type: "frontend",
                 value: "Есть опыт в использовании ReactJS, Redux, TypeScript, JQuery;\n" +
-                    "Для вёрстки: HTML(BEM), CSS(SASS), Bootstrap;\n"
+                    "Для вёрстки: HTML(BEM), CSS(SASS), Bootstrap;\n" +
+                    "\n"+
+                    "прототип приложения с личным кабинетом:\n"+
+                    "<i>typescript / react / axios / redux thunk / bootstrap</i> \n"+
+                    "<i>node.js / express / json-server</i> \n"+
+                    "repo: <a target='_blank' href='https://github.com/S-404/lk-fullstack'>https://github.com/S-404/lk-fullstack</a> \n"+
+                    "\n"+
+                    "прототип приложения онлайн заказа в ресторане\n"+
+                    "<i>react / redux toolkit / sass</i>\n"+
+                    "repo: <a target='_blank' href='https://github.com/S-404/react-food'>https://github.com/S-404/react-food</a>  \n"+
+                    "preview: <a target='_blank' href='https://s-404.github.io/react-food'>https://s-404.github.io/react-food</a>  \n"+
+                    "\n"+
+                    "классическая игра для тренировки памяти: \n"+
+                    "<i>react / mobx / sass</i>\n"+
+                    "repo: <a target='_blank' href='https://github.com/S-404/memory-game'>https://github.com/S-404/memory-game</a> \n"+
+                    "preview: <a target='_blank' href='https://s-404.github.io/memory-game'>https://s-404.github.io/memory-game</a> \n"+
+                    "\n"
             },
             {
                 type: "backend",
                 value: "Разработка и поддержка серверов Node.js (express REST), PHP;\n" +
                     "Опыт работы с базами данных SQL, администрирование (MSSQL, MySQL);\n" +
-                    "Aвтоматизация серверной машины скриптами PowerShell;\n"
+                    "\n"+
+                    "прототип логин сервера с jwt:\n"+
+                    "repo: <a target='_blank' href='https://github.com/S-404/auth-server-express-mssql'>https://github.com/S-404/auth-server-express-mssql</a>  \n"+
+                    "\n"+
+                    "прототип сервера с авторизацией и jwt:\n"+
+                    "repo: <a target='_blank' href='https://github.com/S-404/blahaj-server'>https://github.com/S-404/blahaj-server</a>  \n"+
+                    "\n"
             },
             {
-                type: "прочее",
-                value: 'Опыт работы с системой контроля версий Git;\n' +
-                    'Опытный пользователь Windows, Linux;\n' +
-                    'Начал свой путь программирования с разработки приложений win forms (vb.NET);\n' +
-                    'и небольших проектов на Unity (С#);\n'
+                type: "прочие навыки",
+                value:
+                    'Опытный пользователь Linux / Windows \n'+
+                    'vb.NET - начал свой путь программирования с разработки приложений win forms\n' +
+                    'C# - практиковал навыки на небольших проектах на Unity \n' +
+                    "PowerShell - автоматизация серверной машины скриптами \n" +
+                    'Java - изучаю, интересно бэкенд направление\n' +
+                    'Python - есть небольшой опыт написания парсеров, кликеров, телеграм-бота\n'
             },
         ]
     },
@@ -110,9 +131,16 @@ export const dataRU = {
                         "Разработка кода ПО",
                         "Исправление ошибок в коде ПО",
                     ],
+                    stack: {
+                        title: 'Стек',
+                        points: ["JS", "JQuery", "CSS","Bootstrap", "PostgreSQL", "Nodejs", "Linux", "Git/GitLab"],
+                    },
                     achievements: {
                         title: "Достижения",
-                        points: []
+                        points: [
+                            "Наставник для новичков",
+                            "Тимлид на небольших проектах"
+                        ]
                     }
                 },
                 {
@@ -125,6 +153,30 @@ export const dataRU = {
                         "Проектирование БД",
                         "Настройка и обслуживание web и SQL серверов и окружения",
                     ],
+                    stack: {
+                        title: 'Стек',
+                        points: ["React", "Redux", "JS", "JQuery", "PHP", "CSS", "Nodejs", "MSSQL", "PowerShell", "Windows"]
+                    },
+                    achievements: {
+                        title: "Достижения",
+                        points: [
+                            "Мои приложения в рамках компании были признаны как хорший пример для использования в стране"
+                        ]
+                    }
+                },
+                {
+                    organization: "IKEA",
+                    period: "Сентябрь 2017 - Ноябрь 2020",
+                    title: "vb.Net разработчик (гпх)",
+                    description: [
+                        "Fullstack разработка win form приложений, " +
+                        "разработка win form приложений для оптимизации и автоматизации процессов коммерческой команды",
+                        "Проектирование БД"
+                    ],
+                    stack: {
+                        title: "Стек",
+                        points: ["vb.Net", "MSSQL", "MSAccess", "PowerShell", "Windows"]
+                    },
                     achievements: {
                         title: "Достижения",
                         points: []

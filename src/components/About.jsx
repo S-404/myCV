@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/about.scss"
+
 const About = ({about}) => {
     return (
         <section className='about-block'>
@@ -11,7 +12,10 @@ const About = ({about}) => {
                         className='content__content-point'
                     >
                         <h4 className='content-point__type'>{content.type}:</h4>
-                        <span className='content-point__value'>{content.value}</span>
+                        <span
+                            className='content-point__value'
+                            dangerouslySetInnerHTML={{__html: content.value}}
+                        />
                     </article>
                 ))}
             </div>
