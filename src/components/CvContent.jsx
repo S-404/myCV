@@ -6,11 +6,11 @@ import Contacts from "./Contacts"
 import Skills from "./Skills"
 import Sections from "./sections/Sections"
 import About from "./About"
-import {dataEN} from "../store/EN/data"
 import "../styles/cvcontent.scss"
+import {dataRU} from "../store/RU/data";
 
 const CvContent = () => {
-    const [data, setData] = useState(dataEN)
+    const [data, setData] = useState(dataRU)
     return (
         <div className='cv-content'>
             <div className='language-switcher-div'>
