@@ -100,7 +100,7 @@ export const dataRU = {
                     "прототип логин сервера с jwt:\n"+
                     "repo: <a target='_blank' href='https://github.com/S-404/auth-server-express-mssql'>https://github.com/S-404/auth-server-express-mssql</a>  \n"+
                     "\n"+
-                    "прототип сервера с авторизацией и jwt:\n"+
+                    "прототип сервера с авторизацией, jwt, командным управлением списком задач:\n"+
                     "repo: <a target='_blank' href='https://github.com/S-404/blahaj-server'>https://github.com/S-404/blahaj-server</a>  \n"+
                     "\n"
             },

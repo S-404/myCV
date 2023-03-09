@@ -101,7 +101,7 @@ export const dataEN = {
                     "prototype login server with jwt:\n"+
                     "repo: <a target='_blank' href='https://github.com/S-404/auth-server-express-mssql'>https://github.com/S-404/auth-server-express-mssql</a>  \n"+
                     "\n"+
-                    "prototype server with auth, to do list, jwt:\n"+
+                    "prototype server with auth, task list management, jwt:\n"+
                     "repo: <a target='_blank' href='https://github.com/S-404/blahaj-server'>https://github.com/S-404/blahaj-server</a>  \n"+
                     "\n"
             },
