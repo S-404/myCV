@@ -98,9 +98,11 @@ export const dataRU = {
                     "Опыт работы с базами данных SQL, администрирование (MSSQL, MySQL);\n" +
                     "\n"+
                     "прототип логин сервера с jwt:\n"+
+                    "<i>node js / express / jwt / sequelize</i>\n"+
                     "repo: <a target='_blank' href='https://github.com/S-404/auth-server-express-mssql'>https://github.com/S-404/auth-server-express-mssql</a>  \n"+
                     "\n"+
                     "прототип сервера с авторизацией, jwt, командным управлением списком задач:\n"+
+                    "<i>node js / express / jwt / sequelize</i>\n"+
                     "repo: <a target='_blank' href='https://github.com/S-404/blahaj-server'>https://github.com/S-404/blahaj-server</a>  \n"+
                     "\n"
             },
