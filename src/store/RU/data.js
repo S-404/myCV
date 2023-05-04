@@ -25,7 +25,7 @@ export const dataRU = {
         content: [
             {
                 type: "JavaScript(ES6+)",
-                points: ["React", "Redux / MobX", "TypeScript", "Node", "JQuery"]
+                points: ["React", "Redux / RTK / MobX", "TypeScript", "Nodejs", "JQuery"]
             },
             {
                 type: "HTML",
@@ -33,15 +33,11 @@ export const dataRU = {
             },
             {
                 type: "CSS",
-                points: ["SASS", "Bootstrap"]
+                points: ["SASS", "Bootstrap", "MUI"]
             },
             {
                 type: "SQL",
                 points: ["PostgreSQL", "MSSQL", "MySQL"]
-            },
-            {
-                type: "Инструменты",
-                points: ["Git/GitHub", "Npm", "Webpack", "Postman"]
             },
         ]
 
@@ -123,8 +119,28 @@ export const dataRU = {
             title: "Опыт",
             content: [
                 {
-                    organization: "InState",
-                    period: "Май 2022 - по настоящее время",
+                    organization: "ЮрКлик - ООО Юридический сервис \"ЮрКлик\"",
+                    period: "Апрель 2023 - по настоящее время",
+                    webSite: "https://zennit.ru/",
+                    title: "Фулстек-разработчик",
+                    description: [
+                        "Создание SPA-приложения (React)",
+                        "Интеграция со сторонними сервисами",
+                        "Работа с БД",
+                        "Проведение рефакторинга, тестирования, деплоя кода",
+                    ],
+                    stack: {
+                        title: 'Стек',
+                        points: ["TypeScript", "React","Redux", "RTK", "MUI", "PHP Laravel", "PostgreSQL", "Git/GitLab"],
+                    },
+                    achievements: {
+                        title: "Достижения",
+                        points: []
+                    }
+                },
+                {
+                    organization: "InState - ООО \"ИнСтейт\"",
+                    period: "Май 2022 - Апрель 2023",
                     webSite: "https://instate-pm.com/",
                     title: "Разработчик",
                     description: [
@@ -146,7 +162,7 @@ export const dataRU = {
                     }
                 },
                 {
-                    organization: "IKEA",
+                    organization: "IKEA - ООО \"ИКЕА ДОМ\"",
                     period: "Ноябрь 2020 - Май 2022",
                     title: "Веб-разработчик (гпх)",
                     description: [
@@ -167,7 +183,7 @@ export const dataRU = {
                     }
                 },
                 {
-                    organization: "IKEA",
+                    organization: "IKEA - ООО \"ИКЕА ДОМ\"",
                     period: "Сентябрь 2017 - Ноябрь 2020",
                     title: "vb.Net разработчик (гпх)",
                     description: [
@@ -185,7 +201,7 @@ export const dataRU = {
                     }
                 },
                 {
-                    organization: "IKEA",
+                    organization: "IKEA - ООО \"ИКЕА ДОМ\"",
                     period: "Ноябрь 2011 - Май 2022",
                     title: "Логистика, специалист поддержки продаж и снабжения",
                     description: [

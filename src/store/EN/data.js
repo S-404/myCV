@@ -25,7 +25,7 @@ export const dataEN = {
         content: [
             {
                 type: "JavaScript(ES6+)",
-                points: ["React", "Redux / MobX", "TypeScript", "Node", "JQuery"]
+                points: ["React", "Redux / RTK / MobX", "TypeScript", "Nodejs", "JQuery"]
             },
             {
                 type: "HTML",
@@ -33,15 +33,11 @@ export const dataEN = {
             },
             {
                 type: "CSS",
-                points: ["SASS", "Bootstrap"]
+                points: ["SASS", "Bootstrap", "MUI"]
             },
             {
                 type: "SQL",
                 points: ["PostgreSQL", "MSSQL", "MySQL"]
-            },
-            {
-                type: "Tools",
-                points: ["Git/GitHub", "Npm", "Webpack", "Postman"]
             },
         ]
 
@@ -124,8 +120,28 @@ export const dataEN = {
             title: "Experience",
             content: [
                 {
+                    organization: "YurClick",
+                    period: "April 2023 - currently",
+                    webSite: "https://zennit.ru/",
+                    title: "Fullstack developer",
+                    description: [
+                        "SPA (React) development",
+                        "Third-party services integration",
+                        "Working with database",
+                        "Refactoring, testing, code deployment",
+                    ],
+                    stack: {
+                        title: 'Stack',
+                        points: ["TypeScript", "React","Redux", "RTK", "MUI", "PHP Laravel", "PostgreSQL", "Git/GitLab"],
+                    },
+                    achievements: {
+                        title: "Achievements",
+                        points: []
+                    }
+                },
+                {
                     organization: "InState",
-                    period: "May 2022 - currently",
+                    period: "May 2022 - April 2023",
                     webSite: "https://instate-pm.com/",
                     title: "Developer",
                     description: [
