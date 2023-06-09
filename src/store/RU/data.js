@@ -24,20 +24,24 @@ export const dataRU = {
         title: "Навыки",
         content: [
             {
-                type: "JavaScript(ES6+)",
-                points: ["React", "Redux / RTK / MobX", "TypeScript", "Nodejs", "JQuery"]
+                type: "Frontend",
+                points: [
+                    "JavaScript(ES6+)",
+                    "TypeScript",
+                    "React",
+                    "Redux, RTK, MobX",
+                    "CSS, SASS, Bootstrap, MUI",
+                    "HTML - BEM",
+                    "JQuery",
+                ]
             },
             {
-                type: "HTML",
-                points: ["BEM"]
-            },
-            {
-                type: "CSS",
-                points: ["SASS", "Bootstrap", "MUI"]
-            },
-            {
-                type: "SQL",
-                points: ["PostgreSQL", "MSSQL", "MySQL"]
+                type: "Backend",
+                points: [
+                    "Nodejs (Express)",
+                    "MySQL, MSSQL, PostgreSQL",
+                    "PHP (Laravel)",
+                ]
             },
         ]
 
@@ -121,7 +125,7 @@ export const dataRU = {
                 {
                     organization: "ЮрКлик - ООО Юридический сервис \"ЮрКлик\"",
                     period: "Апрель 2023 - по настоящее время",
-                    webSite: "https://zennit.ru/",
+                    webSite: "https://landing.yurclick.com/",
                     title: "Фулстек-разработчик",
                     description: [
                         "Создание SPA-приложения (React)",
@@ -131,7 +135,7 @@ export const dataRU = {
                     ],
                     stack: {
                         title: 'Стек',
-                        points: ["TypeScript", "React","Redux", "RTK", "MUI", "PHP Laravel", "PostgreSQL", "Git/GitLab"],
+                        points: ["TypeScript", "React","Redux", "RTK", "MUI", "PHP Laravel", "MySQL", "Git/GitLab"],
                     },
                     achievements: {
                         title: "Достижения",

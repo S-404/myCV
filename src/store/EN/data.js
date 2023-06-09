@@ -24,20 +24,24 @@ export const dataEN = {
         title: "Skills",
         content: [
             {
-                type: "JavaScript(ES6+)",
-                points: ["React", "Redux / RTK / MobX", "TypeScript", "Nodejs", "JQuery"]
+                type: "Frontend",
+                points: [
+                    "JavaScript(ES6+)",
+                    "TypeScript",
+                    "React",
+                    "Redux, RTK, MobX",
+                    "CSS, SASS, Bootstrap, MUI",
+                    "HTML - BEM",
+                    "JQuery",
+                ]
             },
             {
-                type: "HTML",
-                points: ["BEM"]
-            },
-            {
-                type: "CSS",
-                points: ["SASS", "Bootstrap", "MUI"]
-            },
-            {
-                type: "SQL",
-                points: ["PostgreSQL", "MSSQL", "MySQL"]
+                type: "Backend",
+                points: [
+                    "Nodejs (Express)",
+                    "MySQL, MSSQL, PostgreSQL",
+                    "PHP (Laravel)",
+                ]
             },
         ]
 
@@ -70,8 +74,8 @@ export const dataEN = {
             },
             {
                 type: "frontend",
-                value: "I've the skills to use ReactJS, Redux, TypeScript, JQuery;" +
-                    "HTML(BEM), CSS(SASS), Bootstrap;\n"+
+                value: "I've the skills to use ReactJS, Redux, TypeScript, JQuery; \n" +
+                    "HTML(BEM), CSS(SASS), Bootstrap; \n"+
                     "\n"+
                     "app prototype with personal account:\n"+
                     "<i>typescript / react / axios / redux thunk / bootstrap</i> \n"+
@@ -91,7 +95,7 @@ export const dataEN = {
             },
             {
                 type: "backend",
-                value: "For backend I'm using Node.js(express REST), PHP (openserver), server machine automation with PowerShell scripts , " +
+                value: "For backend I'm using Node.js(express REST), PHP (openserver / laravel), server machine automation with PowerShell scripts , " +
                     "SQL server administration (MSSQL)"+
                     "\n"+
                     "prototype login server with jwt:\n"+
@@ -104,7 +108,7 @@ export const dataEN = {
                     "\n"
             },
             {
-                type: "прочие навыки",
+                type: "other:",
                 value:
                     'Experienced Linux/Windows user \n'+
                     'vb.NET - I started programming with win forms\n' +
@@ -122,7 +126,7 @@ export const dataEN = {
                 {
                     organization: "YurClick",
                     period: "April 2023 - currently",
-                    webSite: "https://zennit.ru/",
+                    webSite: "https://landing.yurclick.com/",
                     title: "Fullstack developer",
                     description: [
                         "SPA (React) development",
@@ -132,7 +136,7 @@ export const dataEN = {
                     ],
                     stack: {
                         title: 'Stack',
-                        points: ["TypeScript", "React","Redux", "RTK", "MUI", "PHP Laravel", "PostgreSQL", "Git/GitLab"],
+                        points: ["TypeScript", "React","Redux", "RTK", "MUI", "PHP Laravel", "MySQL", "Git/GitLab"],
                     },
                     achievements: {
                         title: "Achievements",
