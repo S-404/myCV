@@ -1,4 +1,7 @@
 
+- preview: https://s-404.github.io/myCV/
+- repository: https://github.com/S-404/myCV
+
 # Available Scripts
 
 In the project directory, you can run:
