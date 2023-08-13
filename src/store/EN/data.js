@@ -75,7 +75,7 @@ export const dataEN = {
             {
                 type: "frontend",
                 value: "I've the skills to use ReactJS, Redux, TypeScript, JQuery; \n" +
-                    "HTML(BEM), CSS(SASS), Bootstrap; \n"+
+                    "HTML(BEM), CSS(SASS), MUI, Bootstrap; \n"+
                     "\n"+
                     "app prototype with personal account:\n"+
                     "<i>typescript / react / axios / redux thunk / bootstrap</i> \n"+
@@ -136,7 +136,28 @@ export const dataEN = {
                     ],
                     stack: {
                         title: 'Stack',
-                        points: ["TypeScript", "React","Redux", "RTK", "MUI", "PHP Laravel", "MySQL", "Git/GitLab"],
+                        points: ["TypeScript", "React","Redux RTK", "MUI", "PHP Laravel", "MySQL", "Git/GitLab"],
+                    },
+                    achievements: {
+                        title: "Achievements",
+                        points: []
+                    }
+                },
+                {
+                    organization: "Freelance",
+                    period: "July 2023",
+                    webSite: "https://github.com/S-404/stableApp",
+                    title: "Developer",
+                    description: [
+                        "Application development for booking arenas in the stables",
+                        "SPA (React) development with Feature-Sliced Design architecture",
+                        "Http server development with Nodejs express",
+                        "Working with database by using sequilize",
+                        "Configure and maintain of web and SQL servers and environments",
+                    ],
+                    stack: {
+                        title: 'Stack',
+                        points: ["TypeScript", "React","Redux RTK", "MUI", "Nodejs express", "sequilize","PostgreSQL", "pm2", "Linux"],
                     },
                     achievements: {
                         title: "Achievements",

@@ -74,7 +74,7 @@ export const dataRU = {
             {
                 type: "frontend",
                 value: "Есть опыт в использовании ReactJS, Redux, TypeScript, JQuery;\n" +
-                    "Для вёрстки: HTML(BEM), CSS(SASS), Bootstrap;\n" +
+                    "Для вёрстки: HTML(BEM), CSS(SASS), MUI, Bootstrap;\n" +
                     "\n"+
                     "прототип приложения с личным кабинетом:\n"+
                     "<i>typescript / react / axios / redux thunk / bootstrap</i> \n"+
@@ -135,7 +135,28 @@ export const dataRU = {
                     ],
                     stack: {
                         title: 'Стек',
-                        points: ["TypeScript", "React","Redux", "RTK", "MUI", "PHP Laravel", "MySQL", "Git/GitLab"],
+                        points: ["TypeScript", "React","Redux RTK", "MUI", "PHP Laravel", "MySQL", "Linux", "Git/GitLab"],
+                    },
+                    achievements: {
+                        title: "Достижения",
+                        points: []
+                    }
+                },
+                {
+                    organization: "Фриланс",
+                    period: "Июль 2023",
+                    webSite: "https://github.com/S-404/stableApp",
+                    title: "Разработчик",
+                    description: [
+                        "Разработка приложения для бронирования манежей на конюшне",
+                        "Создание SPA-приложения (React), придерживаясь ахитектуры Feature-Sliced Design",
+                        "Разработка http сервера Nodejs express",
+                        "Настройка взаимодействия с бд через sequelize",
+                        "Настройка окружения, деплой кода",
+                    ],
+                    stack: {
+                        title: 'Стек',
+                        points: ["TypeScript", "React","Redux RTK", "MUI", "Nodejs express", "sequilize","PostgreSQL", "pm2", "Linux"],
                     },
                     achievements: {
                         title: "Достижения",
