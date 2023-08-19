@@ -133,7 +133,7 @@ export const dataRU = {
             content: [
                 {
                     organization: "ЮрКлик - ООО Юридический сервис \"ЮрКлик\"",
-                    period: "Апрель 2023 - по настоящее время",
+                    period: "Апрель 2023 - Август 2023",
                     webSite: "https://landing.yurclick.com/",
                     title: "Фулстек-разработчик",
                     description: [

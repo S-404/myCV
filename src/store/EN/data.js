@@ -134,7 +134,7 @@ export const dataEN = {
             content: [
                 {
                     organization: "YurClick",
-                    period: "April 2023 - currently",
+                    period: "April 2023 - August 2023",
                     webSite: "https://landing.yurclick.com/",
                     title: "Fullstack developer",
                     description: [
