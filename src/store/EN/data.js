@@ -78,53 +78,19 @@ export const dataEN = {
         content: [
             {
                 type: "web development",
-                value: "I've been developing programming skills since 2017, joined web application development in 2020\n" +
-                    "I'm determined to become a team developer"
+                value: `I've been developing programming skills since 2017, joined web application development in 2020.
+                And I've already applied my skills by creating applications for process optimization in retail logistics and sales department (IKEA).
+                I don’t stop there, I’m constantly learning something new, expanding my horizons in web technologies.
+                `
             },
             {
-                type: "frontend",
-                value: "I've the skills to use ReactJS, Redux, TypeScript, JQuery; \n" +
-                    "HTML(BEM), CSS(SASS), MUI, Bootstrap; \n"+
-                    "\n"+
-                    "app prototype with personal account:\n"+
-                    "<i>typescript / react / axios / redux thunk / bootstrap</i> \n"+
-                    "<i>node.js / express / json-server</i> \n"+
-                    "repo: <a target='_blank' href='https://github.com/S-404/lk-fullstack'>https://github.com/S-404/lk-fullstack</a> \n"+
-                    "\n"+
-                    "app prototype of an online ordering in a restaurant\n"+
-                    "<i>react / redux toolkit / sass</i>\n"+
-                    "repo: <a target='_blank' href='https://github.com/S-404/react-food'>https://github.com/S-404/react-food</a>  \n"+
-                    "preview: <a target='_blank' href='https://s-404.github.io/react-food'>https://s-404.github.io/react-food</a>  \n"+
-                    "\n"+
-                    "classic memory game: \n"+
-                    "<i>react / mobx / sass</i>\n"+
-                    "repo: <a target='_blank' href='https://github.com/S-404/memory-game'>https://github.com/S-404/memory-game</a> \n"+
-                    "preview: <a target='_blank' href='https://s-404.github.io/memory-game'>https://s-404.github.io/memory-game</a> \n"+
-                    "\n"
-            },
-            {
-                type: "backend",
-                value: "For backend I'm using Node.js(express REST), PHP (openserver / laravel), server machine automation with PowerShell scripts , " +
-                    "SQL server administration (MSSQL)"+
-                    "\n"+
-                    "prototype login server with jwt:\n"+
-                    "<i>node js / express / jwt / sequelize</i>\n"+
-                    "repo: <a target='_blank' href='https://github.com/S-404/auth-server-express-mssql'>https://github.com/S-404/auth-server-express-mssql</a>  \n"+
-                    "\n"+
-                    "prototype server with auth, task list management, jwt:\n"+
-                    "<i>node js / express / jwt / sequelize</i>\n"+
-                    "repo: <a target='_blank' href='https://github.com/S-404/blahaj-server'>https://github.com/S-404/blahaj-server</a>  \n"+
-                    "\n"
-            },
-            {
-                type: "other:",
+                type: "other",
                 value:
-                    'Experienced Linux/Windows user \n'+
-                    'vb.NET - I started programming with win forms\n' +
-                    'C# - practiced skills on small UNITY projects" \n' +
-                    "PowerShell - server machine automation\n" +
-                    'Java - studying, interesting backend direction\n' +
-                    'Python - have some experience in writing parsers, clickers, telegram bots\n'
+                    `Experienced Linux/Windows user
+                    vb.NET - I started programming with win forms
+                    C# - practiced skills on small UNITY projects
+                    PowerShell - server machine automation
+                    Python - have some experience in writing parsers, clickers, telegram bots\n`
             },
         ]
     },
@@ -138,18 +104,21 @@ export const dataEN = {
                     webSite: "https://landing.yurclick.com/",
                     title: "Fullstack developer",
                     description: [
-                        "SPA (React) development",
+                        "SPA (React) development for the provision of legal services",
                         "Third-party services integration: internet acquiring, automatic verification and correction of contact data, sending letters/sms",
                         "Working with database (MySQL)",
                         "Refactoring, testing, code deployment",
+                        "Backend development and optimization (php laravel)"
                     ],
                     stack: {
                         title: 'Stack',
-                        points: ["TypeScript", "React","Redux RTK", "MUI", "PHP Laravel", "MySQL", "Git/GitLab"],
+                        points: ["TypeScript", "React","Redux RTK", "react-hook-form", "MUI", "PHP Laravel", "MySQL", "Git/GitLab"],
                     },
                     achievements: {
                         title: "Achievements",
-                        points: []
+                        points: [
+                            "For greater involvement in the development process on the backend, got acquainted with the Laravel framework"
+                        ]
                     }
                 },
                 {
@@ -179,14 +148,19 @@ export const dataEN = {
                     webSite: "https://instate-pm.com/",
                     title: "Developer",
                     description: [
+                        "Development and support of a low code platform for developing web applications",
+                        "Development of platform tools",
+                        "Implementation and expansion of functionality of widgets and modules",
+                        "Optimization of existing widgets and modules",
+                        "Development of applications on the platform",
+                        "Working with the database (postgresql)",
                         "Estimating the timing of the implementation of individual functional requirements or blocks of requirements",
                         "Participation in the discussion of technical solutions for the implementation of the software functionality",
-                        "Software code development / Debugging",
-                        "Development of the lowcode platform and expansion of the functionality of widgets and modules",
+                        "Participation in projects for the implementation of company products",
                     ],
                     stack: {
                         title: 'Stack',
-                        points: ["JS", "JQuery", "CSS","Bootstrap", "PostgreSQL", "Nodejs", "Linux", "Git/GitLab"],
+                        points: ["JS", "JQuery", "CSS","Bootstrap", "PostgreSQL", "Nodejs", "express", "Linux", "Git/GitLab"],
                     },
                     achievements: {
                         title: "Achievements",
@@ -197,50 +171,25 @@ export const dataEN = {
                     }
                 },
                 {
-                    title: "Web Developer (civil contract)",
-                    period: "November 2020 - May 2022",
+                    title: "Developer (civil contract)",
+                    period: "September 2017 - May 2022",
                     organization: "IKEA",
                     description: [
-                        "Fullstack developing of web portal, " +
                         "Development of web applications to optimize and automate the processes of a commercial team",
+                        "Fullstack developing of web portal",
+                        "Development of winforms apps",
                         "Database design (mssql)",
                         "Configure and maintain of web and SQL servers and environments",
                     ],
                     stack: {
                         title: 'Stack',
-                        points: ["React", "Redux", "JS", "JQuery", "PHP", "CSS", "Nodejs", "MSSQL", "PowerShell", "Windows"]
+                        points: ["React", "Redux", "JS", "JQuery", "PHP", "CSS", "Nodejs", "MSSQL", "PowerShell", "Windows", "vb.NET", "MSAceess"]
                     },
                     achievements: {
                         title: "Achievements",
                         points: [
-                            "My applications have been recognized as a good example for use in the country"
-                        ]
-                    }
-                },
-                {
-                    title: "Logistics, supply support specialist",
-                    period: "November 2011 - May 2022",
-                    organization: "IKEA",
-                    description: [
-                        "Using internal systems to analyze and maintain store stock availability",
-                        "Making reports for the analysis of key indicators with a view to their subsequent improvement",
-                        "Organizing and conducting an inventory of goods, investigating discovered discrepancies",
-                        "Maintaining internal document flow",
-                        "Handling internal transactions",
-                    ],
-                    stack: {
-                        title: "Stack",
-                        points: ["vb.Net", "MSSQL", "MSAccess", "PowerShell", "Windows"]
-                    },
-                    achievements: {
-                        title: "Achievements",
-                        points: [
-                            "Applying programming skills to achieve business goals " +
-                            "by developing methods and tools for the interaction of a commercial team",
-                            "Reached the role Senior Specialist",
-                            "Optimization of department processes - " +
-                            "created and implemented applications " +
-                            "that reduced the time spent on routines",
+                            "My applications have been recognized as a good example for use in the country",
+                            "Optimization of department processes - created and implemented applications that reduced the time spent on routines"
                         ]
                     }
                 },
