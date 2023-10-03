@@ -8,7 +8,7 @@ const Section = ({section}) => {
             <div className='section__section-contents'>
                 {section.content.map(content => (
                     <SectionContent
-                        key={`content_${content.title}`}
+                        key={`content_${content.title}_${content.organization}`}
                         content={content}
                     />
                 ))}

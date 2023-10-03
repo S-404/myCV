@@ -6,11 +6,13 @@ const Contacts = ({ personalData }) => {
         <section className='contacts'>
             <h2 className='contacts__header'>{personalData.contacts.title}</h2>
             {personalData.contacts.content.map(contact => (
-                <div className='contacts__contact'>
+                <div
+                    key={`contact_${contact.type}_${contact.value}`}
+                    className='contacts__contact'
+                >
                     <span className='contact__type'>{contact.type}</span>
                     <a
                         className='contact__link'
-                        key={`contact_${contact.type}_${contact.value}`}
                         href={contact?.link}
                         target='_blank' rel="noreferrer"
                     >
